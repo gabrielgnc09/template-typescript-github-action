@@ -1,8 +1,8 @@
-name: 'Your name here'
-description: 'Provide a description here'
-author: 'Your name or organization here'
+name: 'name tag minha primeira action usando typescript'
+description: 'description tag aqui vem uma descricao'
+author: 'Gabriel do Nascimento de Carvalho'
 inputs:
-  milliseconds: # change this
+  milliseconds: 1000
     required: true
     description: 'input description here'
     default: 'default value if applicable'
