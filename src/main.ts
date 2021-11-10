@@ -14,6 +14,8 @@ const creatorEmail = core.getInput('creatorEmail') //Email criador do comentári
 const creatorPassword = core.getInput('creatorPassword') //Password (Váriavel de ambiente{sescrets.ARTIA_PASSWORD} informada no main.yml do workflow).
 const folderId = parseInt(core.getInput('folderId')) //Id da pasta ou do projeto.
 
+core.debug(' Teste ')
+
 async function run(): Promise<void> {
   try {
     const issue = objPayload.issue
